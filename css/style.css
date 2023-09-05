@@ -161,15 +161,17 @@ p {
 }
 
 .company_list {
+  list-style-type: none;
   padding: 0;
-  margin-left: 16px;
+}
+
+.company_link {
+  text-decoration: underline;
+  color: #fb6d3a;
 }
 
 .company_item {
   width: 510px;
-}
-
-.company_item {
 }
 
 /* Education */
